@@ -4,14 +4,14 @@
  margin: 5px 0 0 0;
  padding: 0;
  background-color: #231F20;
- color: white
+ color: white;
+ overflow: hidden;
 }
 .footer .footer-banner {
  font-family: ManifoldDSA;
  font-weight: 700;
  font-size: 4em;
  text-align: center;
- overflow: hidden;
 /* position: absolute; */
 }
 .title .btn {
@@ -37,7 +37,7 @@
 
 @keyframes slide-io { /* over 15s */
     0% { transform: translateX(-300%); } /* 0s */
-    33% { transform: translateX(100%); } /* 4 */
-    66% { transform: translateX(100%); } /* 8 */
+    33% { transform: translateX(0%); } /* 4 */
+    66% { transform: translateX(0%); } /* 8 */
     100% { transform: translateX(300%); } /* 12s */
 }
