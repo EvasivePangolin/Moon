@@ -33,7 +33,7 @@
 
 @keyframes slide-io { /* over 15s */
     0% { transform: translateX(-100%); } /* 0s */
-    33% { transform: translateX(0%); /* 5s */
-    66% { transform: translateX(0%); /* 10s */
+    33% { transform: translateX(0%); } /* 5s */
+    66% { transform: translateX(0%); } /* 10s */
     100% { transform: translateX(100%); } /* 15s */
 }
