@@ -13,7 +13,7 @@
     font-family: 'ManifoldDSA-Bold';
     src: url("../fonts/Manifold_DSA/ManifoldDSA-Bold.otf");
     src: local("Manifold DSA Bold"),
-         url(../fonts/Manifold_DSA/ManifoldDSA-Bold.otf") format("opentype");
+         url("../fonts/Manifold_DSA/ManifoldDSA-Bold.otf") format("opentype");
     font-weight: bold;
     font-style: normal;
 }
