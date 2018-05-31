@@ -21,7 +21,7 @@
     position: absolute;
 }
 .fb1 {
-  transform: translateX(-100%);
+  transform: translateX(0%);
   animation: slide-io 15s linear -5s infinite forwards;
 }
 .fb2 {
@@ -29,7 +29,7 @@
   animation: slide-io 15s linear infinite forwards;
 }
 .fb3 {
-  transform: translateX(-100%);
+  transform: translateX(-200%);
   animation: slide-io 15s linear 5s infinite forwards;
 }
 
