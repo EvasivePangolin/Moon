@@ -22,23 +22,20 @@
 /*    position: absolute; */
 }
 .fb1 {
-  transform: translateX(0%);
   animation: slide-io 12s linear infinite forwards;
 }
-/*
+
 .fb2 {
-  transform: translateX(-100%);
   animation: slide-io 12s linear infinite forwards;
 }
 .fb3 {
-  transform: translateX(-200%);
-  animation: slide-io 12s linear 3s infinite forwards;
+  animation: slide-io 12s linear infinite forwards;
 }
-*/
+
 
 @keyframes slide-io { /* over 15s */
-    0% { transform: translateX(-100%); } /* 0s */
-    33% { transform: translateX(0%); } /* 4 */
-    66% { transform: translateX(0%); } /* 8 */
-    100% { transform: translateX(100%); } /* 12s */
+    0% { transform: translateX(-300%); } /* 0s */
+    33% { transform: translateX(100%); } /* 4 */
+    66% { transform: translateX(100%); } /* 8 */
+    100% { transform: translateX(300%); } /* 12s */
 }
