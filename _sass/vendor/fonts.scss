@@ -1,3 +1,22 @@
+// Manifold DSA
+// Normal
+@font-face{
+    font-family: 'ManifoldDSA';
+    src: url("../fonts/Manifold_DSA/ManifoldDSA-DemiBold.otf");
+    src: local("Manifold DSA"),
+         url(../fonts/Manifold_DSA/ManifoldDSA-DemiBold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+// Bold
+@font-face{
+    font-family: 'ManifoldDSA-Bold';
+    src: url("../fonts/Manifold_DSA/ManifoldDSA-Bold.otf");
+    src: local("Manifold DSA Bold"),
+         url(../fonts/Manifold_DSA/ManifoldDSA-Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
 // Fira Sans
 @font-face{
     font-family: 'Fira Sans';
