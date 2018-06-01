@@ -7,6 +7,7 @@ layout: compress
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
 <head>
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/home.css">
     {% include head.html %}
 </head>
 <body>
@@ -15,36 +16,51 @@ layout: compress
     <header class="header flex" role="banner">
         <div class="container animated fadeIn">
             <div class="row">
+                
                     <a href="{{ site.url }}">
-                        <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
+                        <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn" style="height: auto; width: 75%;">
                     </a>
+                <!--
                     <h3 class="title">
                         <a class="zoombtn" href="{{ site.url }}">
-                        	<p style="font-size:1.2rem;font-weight:300">{{ site.title }}</p>
+                        	<span style="font-size:5rem;font-weight:700;color:white;width:auto;background-color:#231F20;padding:3px">You Belong Here.</span>
 			            </a>
                     </h3>
-                    <hr class="hr-line">
                     <h3 class="title">
                         <a href="{{ site.url }}">
-                        	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
+                        	<span style="2.2rem;font-weight:300;color:white;background-color:#231F20;padding:1px">{{ site.bio }}</span>
 			            </a>
                     </h3>
                     {% include social-links.html %}
-                  <hr class="hr-line">
-                  <h3 class="title">
-                         <a class="btn zoombtn" href="{{ site.url }}/about">
-                         About
-                         </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/posts">
-                         Posts
-                         </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/projects">
-                         Projects
-                         </a>
-                 </h3>
+                -->
             </div>
         </div>
     </header>
+    
+    <div class="footer">
+        <div class="footer-banner">
+            <div class="fb1">
+                Take Action
+            </div>
+            <div class="fb2">
+                Make a difference
+            </div>
+            <div class="fb3">
+                You Belong Here.
+            </div>
+        </div>
+            <h3 class="title">
+                     <a class="btn zoombtn" href="{{ site.url }}/about">
+                     About
+                     </a>
+                     <a class="btn zoombtn" href="{{ site.url }}/posts">
+                     News
+                     </a>
+                     <a class="btn zoombtn" href="{{ site.url }}/projects">
+                     Working Groups
+                     </a>
+            </h3>
+    </div>
     {% include scripts.html %}
 </body>
 </html>

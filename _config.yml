@@ -5,7 +5,7 @@ description:        "Middle Tennessee's branch of the fastest growing socialist 
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.svg'
-background:         'assets/img/placeholder-big.jpg'
+background:         'assets/img/event-banner.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://evasivepangolin.github.io/midtndsa/
