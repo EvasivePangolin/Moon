@@ -16,15 +16,14 @@
 }
 
 .title .btn {
- padding: 45px 0 0 0;
- float: clear;
- margin: 10px;
- font-weight: 300;
+ float: clear; /* Avoid overlapping */
+ margin: 55px 10px 10px 10px; /* top right bottom left */
+ font-weight: 300; /* Normal weight (not bold) */
 }
 
 .fb1, .fb2, .fb3 {
-    opacity:0;
-    position: absolute;
+    opacity: 0; /* Invisible by default */
+    position: absolute; /* Don't float, overlap */
     width: 100%;
     text-align: center;
 }
@@ -39,21 +38,19 @@
 }
 @keyframes opacity-1 {
     0% { opacity:0; }
-    10% { opacity:1; }
-    20% { opacity:1; }
-    30% { opacity:0; }
-    100% { opacity:0; }
+    5% { opacity:1; }
+    30% { opacity:1; }
+    40% { opacity:0; }
 }
 @keyframes opacity-2 {
     0% { opacity:0; }
-    30% { opacity:0; }
-    40% { opacity:1; }
-    50% { opacity:1; }
-    100% { opacity:0; }
+    40% { opacity:0; }
+    45% { opacity:1; }
+    60% { opacity:1; }
+    70% { opacity:0; }
 }
 @keyframes opacity-3 {
-    0% { opacity:0; }
-    80% { opacity:0; }
-    90% { opacity:1;background-color:$red; }
+    70% { opacity:0; }
+    75% { opacity:1;background-color:$red; }
     100% { opacity:1;background-color:$red; }
 }
