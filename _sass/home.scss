@@ -15,13 +15,14 @@
 /* position: absolute; */
 }
 .title .btn {
- margin:10px;
- font-weight:300;
+ margin: 10px;
+ font-weight: 300;
 }
 .fb1, .fb2, .fb3 {
     display: inline-block;
     position: absolute;
-    margin: auto;
+    width: 100%;
+    text-align: center;
 }
 .fb1 {
   animation: slide-io 12s linear infinite forwards;
@@ -37,7 +38,8 @@
 
 @keyframes slide-io { /* over 15s */
     0% { transform: translateX(-300%); } /* 0s */
-    33% { transform: translateX(0%); } /* 4 */
-    66% { transform: translateX(0%); } /* 8 */
-    100% { transform: translateX(300%); } /* 12s */
+    33% { transform: translateX(0%); opacity:1; } /* 4 */
+    66% { transform: translateX(0%); opacity:1; } /* 8 */
+    99% { transform: translateX(300%); opacity:0; } /* 12s */
+    100% { transform: translateX(-300%); opacity:0; } /* 12s */
 }
