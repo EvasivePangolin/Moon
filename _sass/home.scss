@@ -10,7 +10,6 @@
  padding: 0;
  background-color: #231F20;
  color: white;
- overflow: hidden;
 }
 /* Redundant
 .footer .footer-banner {
@@ -45,20 +44,20 @@
   animation: opacity-3 10s linear forwards;
 }
 @keyframes opacity-1 {
-    0% { color: rgba(255, 255, 255, 0); }
-    5% { color: rgba(255, 255, 255, 1); }
-    30% { color: rgba(255, 255, 255, 1) }
-    40% { color: rgba(255, 255, 255, 0) }
+    0% { opacity:0; }
+    5% { opacity:1; }
+    30% { opacity:1; }
+    40% { opacity:0; }
 }
 @keyframes opacity-2 {
-    0% { color: rgba(255, 255, 255, 0); }
-    40% { color: rgba(255, 255, 255, 0); }
-    45% { color: rgba(255, 255, 255, 1); }
-    60% { color: rgba(255, 255, 255, 1); }
-    70% { color: rgba(255, 255, 255, 0); }
+    0% { opacity:0; }
+    40% { opacity:0; }
+    45% { opacity:1; }
+    60% { opacity:1; }
+    70% { opacity:0; }
 }
 @keyframes opacity-3 {
     70% { opacity:0; }
-    75% { color: rgba(255, 255, 255, 1); background-color:$red; }
-    100% { color: rgba(255, 255, 255, 1); background-color:$red; }
+    75% { opacity:1;background-color:$red; }
+    100% { opacity:1;background-color:$red; }
 }
