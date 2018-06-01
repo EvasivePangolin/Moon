@@ -19,6 +19,7 @@
  font-weight: 300;
 }
 .fb1, .fb2, .fb3 {
+    transform: translateX(-100%);
     display: inline-block;
     position: absolute;
     width: 100%;
@@ -27,7 +28,6 @@
 .fb1 {
   animation: slide-io 12s linear infinite forwards;
 }
-
 .fb2 {
   animation: slide-io 12s linear 4s infinite forwards;
 }
@@ -35,11 +35,9 @@
   animation: slide-io 12s linear 8s infinite forwards;
 }
 
-
 @keyframes slide-io { /* over 15s */
-    0% { transform: translateX(-300%); } /* 0s */
-    33% { transform: translateX(100%); opacity:1; } /* 4 */
-    66% { transform: translateX(100%); opacity:1; } /* 8 */
-    99% { transform: translateX(300%); opacity:0; } /* 12s */
-    100% { transform: translateX(-300%); opacity:0; } /* 12s */
+    0% { transform: translateX(-100%); } /* 0s */
+    33% { transform: translateX(0%); opacity:1; } /* 4 */
+    66% { transform: translateX(0%); opacity:1; } /* 8 */
+    100% { transform: translateX(100%); opacity:0; } /* 12s */
 }
